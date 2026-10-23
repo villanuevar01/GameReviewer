@@ -1,1 +1,2 @@
-
+-- GameReviewer Database Schema
+-- Video Game Store and Review Website
