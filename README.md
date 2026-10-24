@@ -47,11 +47,11 @@ erDiagram
         DECIMAL TotalPrice
     }
 
-    Developers ||--o< Games : develops
-    Categories ||--o< Games : categorizes
-    Users ||--o< Reviews : writes
-    Games ||--o< Reviews : receives
-    Users ||--o< Purchases : makes
-    Games ||--o< Purchases : purchased_in
+    Developers ||--o{ Games : develops
+    Categories ||--o{ Games : categorizes
+    Users ||--o{ Reviews : writes
+    Games ||--o{ Reviews : receives
+    Users ||--o{ Purchases : makes
+    Games ||--o{ Purchases : purchased_in
 ```
   
