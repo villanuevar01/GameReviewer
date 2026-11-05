@@ -55,3 +55,6 @@ erDiagram
     Games ||--o{ Purchases : purchased_in
 ```
   
+## Development Setup
+
+- Installed Apache2, PHP, MariaDB, and phpMyAdmin on Debian.
