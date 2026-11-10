@@ -10,6 +10,7 @@ $games = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <title>GameReviewer</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Welcome to GameReviewer!</h1>
