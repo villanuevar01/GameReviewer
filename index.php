@@ -24,7 +24,7 @@ $games = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="game-card">
         <h3><?= htmlspecialchars($game['Title']) ?></h3>
         <p><?= htmlspecialchars($game['Description'] ?? '') ?></p>
-        <p>Price: $<?= htmlspecialchars($game['Price']) ?></p>
+        <p class="price">Price: $<?= htmlspecialchars($game['Price']) ?></p>
     </div>
     <?php endforeach; ?>
     </div>
